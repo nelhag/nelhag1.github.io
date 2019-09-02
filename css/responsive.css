@@ -1,0 +1,22 @@
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  @media( min-width: 375px ) {
+    .main-header {
+        font-size: .4rem;
+    }
+  }
+  
+  @media( min-width: 475px) {
+      .main-header {
+          font-size: .6rem;
+      }
+  }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }}

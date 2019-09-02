@@ -1,0 +1,67 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: rgb(156, 154, 154);
+    /* background-color: #f1f1f1; */
+    
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(156, 154, 154);/*inherit optionsal*/
+    padding: 14px 16px;
+    font-size: 17px;
+    list-style: none;
+    transition: 0.3s;
+    border: none;
+  }
+  .tab button {   
+  background-color:rgb(77, 93, 102);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  }
+
+  .tablinks {
+    
+      list-style-type: none;
+      font-size: 1.6em;
+      list-style: none;
+      display:inline-block;
+      font-weight:bolder;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(156, 154, 154);
+  }
+  
+  
+  /* Create an active/current tablink class */
+  /* .tab a.active {
+    background-color: #ccc;
+  } */
+  /* .tabcontents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+  /* Style the tab content */
+  .tabcontent {
+    margin-left: 400px;
+    justify-content: center;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width:100%;
+  }

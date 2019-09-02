@@ -1,0 +1,331 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing :border-box;
+    margin:0;
+    padding:0;
+    }
+    html{
+        font:20px/1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow-x:hidden;
+        
+    }
+    body {
+        padding: 1rem;
+        overflow-x:hidden;
+     
+    }
+    
+    p, li {
+        line-height: 1.618;
+    }
+    
+    ul {
+        list-style: none;
+    }
+
+    a:hover{
+        color:#886F57; 
+    }  
+    ul.nav__list{
+    float:right;
+   
+    
+    }
+     
+    .nav__list-item{
+        
+        list-style-type: none;
+        font-size: 1.6em;
+        list-style: none;
+        display:inline-block;
+        font-weight:bolder;
+        border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+        
+    }
+    
+    .nav__list-item a{
+        color:rgb(25, 32, 32);
+        border-style: solid;
+        border-width: 0.1rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem 0.5rem;
+        padding: 6px;
+        /* color:black; */
+        margin-right: 0.5rem;
+        text-decoration: none;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    
+    }
+ 
+    a:hover{
+        /* color:rgba(153, 133, 17, 0.815); */
+        color:#886F57;
+        }
+
+    .main-header{
+        
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        background-color: rgb(156, 154, 154);
+        height:10vh;
+        border: 0.5px;
+        
+    }
+    .main-header__title{
+       text-align-last: center;
+       font-size: 2.5em;
+       text-align: end;
+     
+    }
+     .hero_container{
+       display:flex;
+       flex-direction: column;
+       /* border:1px black solid; */
+        justify-content: center;   
+         width: 100%;
+         /* background-image: url("./images/graywood.jpg"); */
+        /* background-color:	#C8C8CA; 
+        /* background-color: rgba(141, 124, 101, 0.466); */
+       
+           }
+          
+    .resume-container{
+        display:flex;
+       flex-direction: column;
+       /* border:1px black solid; */
+        justify-content: center;   
+         width: 100%;
+    }
+    .contact-container{
+        display:flex;
+        flex-direction: column;
+        /* border:1px black solid; */
+         justify-content: center;   
+          width: 100%;  
+    }
+    .hero-image_section{
+         margin-left: 400px; 
+         
+        
+        
+    }
+    .hero-image__title {
+              width: 30%;
+              align-items: flex-end;
+              margin-left: 200px;
+              font-size: 2rem;
+     
+
+    }
+    
+    .hero-image_photo{
+          background-repeat: no-repeat;
+        border:1px black solid;
+         margin-bottom: 3rem;
+         width: 50%;
+        border-radius:120px 20px 120px 20px;
+        border-color:rgb(25, 32, 32);
+         /* margin: 0 auto; 
+         display: block; */
+    }
+    @media( min-width: 375px ) {
+        .my-portofolio {
+            font-size: .4rem;
+        }
+      }
+      
+      @media( min-width: 475px) {
+          .my-portofolio {
+              font-size: .6rem;
+          }
+      }
+   
+    div.my-portofolio{
+    margin-left:600px;
+    display: flex;
+      padding:8px;
+      line-height:2em;
+      align-items: center;
+
+    }
+    .author_paragraph{
+        font-size: 1.5rem;
+    }
+    .my-portofolio_title{
+        line-height:2.8em;
+        font-weight: bolder;
+        color:rgb(100, 92, 92);
+
+ 
+    }
+  
+      .author-info{
+        font-size: 1.3rem;
+      }
+    .skill_list_items{
+        list-style: none;
+        font-size: 1.5rem;
+    }
+    .skills{
+        line-height: 2.8em;
+        color:rgb(100, 92, 92);
+    }
+    .tech{
+        padding-bottom:10px;
+    }
+    .other-skills-list{
+        list-style: none;
+        font-size: 1.5rem;
+           }
+    .other-skills_title{
+        padding-top:10px;
+        padding-bottom: 8px;
+    }
+       
+.contact{
+  display :flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-left: 400px;
+  padding: 20px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  line-height: 2rem;
+  
+    }
+    .contact-image1,  .contact-image2,.contact-image3,.contact-image4{
+  
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  /* min-width: 0; */
+  padding-left: 2%; 
+  padding-right: 2%;
+      }
+
+  
+   
+    .container{
+        padding-top: 30px;
+        position: absolute;
+        left:0;
+        right: 0;
+    }
+    .footer_1{
+        background-color: rgb(156, 154, 154);
+        display: flex;
+    height: 1rem;
+    align-items: center;
+   padding-top:40px;
+   overflow: hidden;
+         
+    }
+    .footer-title{
+             
+        background-color: rgb(156, 154, 154);
+       font-weight:bolder;
+       font-size: .8rem;
+       padding-bottom: 2.0rem; 
+       margin-left:602px;
+       height: 1rem;
+    }
+.contactme-image{
+    width:20%;
+    margin-left:300px;
+    padding-top: 30px;
+    
+   
+}
+.projects{
+    display:flex;
+       flex-direction: column;
+       /* border:1px black solid; */
+        justify-content: center;  
+        
+         width: 100%;
+}
+
+.project2{
+    padding-top:70px;
+}
+@media( min-width: 375px ) {
+    .resume-frame {
+        font-size: .4rem;
+    }
+  }
+  
+  @media( min-width: 475px) {
+      .resume-frame {
+          font-size: .6rem;
+      }
+  }
+.resume-frame{
+    margin-left: 300px;
+    /* margin-top=50px;
+  */
+
+}
+@media( min-width: 375px ) {
+    .light
+     {
+         font-size: .4rem;
+         justify-content: center;
+     }
+   }
+   
+   @media( min-width: 475px) {
+       .light {
+           font-size: .6rem;
+           justify-content: center;
+       }
+   }
+ 
+.light {
+    background-color: rgb(155, 150, 150);
+    color:rgb(25, 32, 32);
+    background-image: url("/images/blue-gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dark {
+    /* background-color:rgb(78, 2, 78); */
+     /* background-color: #886F57;  */
+    color:rgb(94, 81, 8);
+    background-image: url("/images/Blackgold.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.theme-button{
+    padding-top: 8px;
+    height: 2rem;
+    background-color:rgb(139, 134, 134); 
+     font-weight: bolder;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.5rem;
+  padding: 6px;
+  cursor: pointer;
+  
+}
+.emailphone{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    align-items: center;
+}
+    

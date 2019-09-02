@@ -1,0 +1,11 @@
+.gitimg{
+    display: flex;
+    justify-content: center;
+}
+
+.githhub-image{
+    width:100%;
+    cursor:pointer;
+    border:none;
+    height: 10vh;
+}
